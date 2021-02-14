@@ -36,5 +36,7 @@ define-command -params 0..1 -file-completion -docstring 'coderun [<filename>]: r
 
 		# Start
 		eval "printf '%s' \"$(eval "printf '%s' \"\$CODERUN_$EXTENSION\"")\""
+
+		printf '\n\033[1mCoderun ended (press enter to exit)\033[0m' && read
 	}
 }
