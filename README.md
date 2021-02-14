@@ -39,7 +39,7 @@ coderun [FILE]
 ###### NOTE: `coderun.kak` out of the box cannot run code, you need to [configure it](#configuration).
 
 ## Configuration
-Coderun is configured through [CODERUN environment variables](https://github.com/NNBnh/coderun#configuration).
+Coderun is configured through [`CODERUN` environment variables](https://github.com/NNBnh/coderun#configuration).
 
 
 ## Credits
