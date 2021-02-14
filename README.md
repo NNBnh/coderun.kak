@@ -34,7 +34,7 @@ Run `coderun` in the prompt:
 coderun [FILE]
 ```
 
-###### `coderun` will run the currunt file by default.
+###### `coderun` will run the current file by default.
 
 ###### NOTE: `coderun.kak` out of the box cannot run code, you need to [configure it](#configuration).
 
