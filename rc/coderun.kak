@@ -25,7 +25,7 @@
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 define-command -params 0..1 -file-completion -docstring 'coderun [<filename>]: run the current file or the given filename' coderun %{
-	echo sh -c %sh{
+	terminal sh -c %sh{
 		# Values
 		FULL=$(realpath "${1:-$kak_buffile}")
 		DIRECTORY="${FULL%/*}"
@@ -33,15 +33,8 @@ define-command -params 0..1 -file-completion -docstring 'coderun [<filename>]: r
 		NAME="${FILE%.*}"
 		EXTENSION=$(printf '%s' "$FILE" | sed -e "s/^$NAME\.*//" -e 's/+/p/g' -e 's/-/_/g')
 
-		if [ -n "$(eval "printf '%s' \"\$kak_opt_coderun_$EXTENSION\"")" ]; then
-			METHOD='kak_opt_coderun_'
-		else
-			METHOD='CODERUN_'
-		fi
-
 
 		# Start
-		echo "$(eval "printf '%s' \"\$kak_opt_coderun_$EXTENSION\"")"
-		# eval "printf '%s' \"$(eval "printf '%s' \"\$$METHOD$EXTENSION\""); printf '\\n\\033[1mCoderun ended (press enter to exit)\\033[0m' && read\""
+		eval "printf '%s' \"$(eval "printf '%s' \"\$CODERUN_$EXTENSION\""); printf '\\n\\033[1mCoderun ended (press enter to exit)\\033[0m' && read\""
 	}
 }
