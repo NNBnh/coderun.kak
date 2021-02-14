@@ -31,10 +31,18 @@ define-command -params 0..1 -file-completion -docstring 'coderun [<filename>]: r
 		DIRECTORY="${FULL%/*}"
 		FILE="${FULL##*/}"
 		NAME="${FILE%.*}"
-		EXTENSION=$(printf '%s' "$FILE" | sed -e "s/^$NAME\.*//" -e 's/+/p/g' -e 's/-/_/g')
+		EXTENSION="${FILE##$NAME*.}"
+
+		if [ -n "$(eval "printf '%s' \"\$kak_opt_coderun_$EXTENSION\"")" ]; then
+			METHOD='kak_opt_coderun_'
+		else
+			METHOD='CODERUN_'
+
+			EXTENSION=$(printf '%s' "$EXTENSION" | sed -e 's/+/p/g' -e 's/-/_/g')
+		fi
 
 
 		# Start
-		eval "printf '%s' \"$(eval "printf '%s' \"\$CODERUN_$EXTENSION\""); printf '\\n\\033[1mCoderun ended (press enter to exit)\\033[0m' && read\""
+		eval "printf '%s' \"$(eval "printf '%s' \"\$$METHOD$EXTENSION\""); printf '\\n\\033[1mCoderun ended (press enter to exit)\\033[0m' && read\""
 	}
 }
