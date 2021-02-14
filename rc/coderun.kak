@@ -24,10 +24,10 @@
 #    You should have received a copy of the GNU General Public License
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-define-command -params 1 -file-completion -docstring 'coderun [<filename>]: run the current file or the given filename' coderun %{
-	echo %sh{
+define-command -params 0..1 -file-completion -docstring 'coderun [<filename>]: run the current file or the given filename' coderun %{
+	terminal %sh{
 		# Values
-		FULL=$(realpath "$1")
+		FULL=$(realpath "${1:-$kak_buffile}")
 		DIRECTORY="${FULL%/*}"
 		FILE="${FULL##*/}"
 		NAME="${FILE%.*}"
@@ -35,6 +35,6 @@ define-command -params 1 -file-completion -docstring 'coderun [<filename>]: run 
 
 
 		# Start
-		eval "printf '%s' \"\$CODERUN_$EXTENSION\""
+		eval "printf '%s' \"$(eval "printf '%s' \"\$CODERUN_$EXTENSION\"")\""
 	}
 }
