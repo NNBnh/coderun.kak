@@ -35,13 +35,13 @@ define-command -params 0..1 -file-completion -docstring 'coderun [<filename>]: r
 
 		if [ -n "$(eval "printf '%s' \"\$kak_opt_coderun_$EXTENSION\"")" ]; then
 			METHOD='kak_opt_coderun_'
-			echo "$(eval "printf '%s' \"\$kak_opt_coderun_$EXTENSION\"")"
 		else
 			METHOD='CODERUN_'
-			eval "printf '%s' \"$(eval "printf '%s' \"\$$METHOD$EXTENSION\""); printf '\\n\\033[1mCoderun ended (press enter to exit)\\033[0m' && read\""
 		fi
 
 
 		# Start
+		echo "$(eval "printf '%s' \"\$kak_opt_coderun_$EXTENSION\"")"
+		# eval "printf '%s' \"$(eval "printf '%s' \"\$$METHOD$EXTENSION\""); printf '\\n\\033[1mCoderun ended (press enter to exit)\\033[0m' && read\""
 	}
 }
