@@ -6,6 +6,10 @@
 ## About
 `coderun.kak` is a code runner for [Kakoune](http://kakoune.org) that can run any languages.
 
+<p align="center"><a href="https://user-images.githubusercontent.com/43980777/108585543-92714300-737b-11eb-8296-1bf0cf79437f.mp4"><img src="https://user-images.githubusercontent.com/43980777/108586276-e7af5380-737f-11eb-9acd-c248b7a1c720.png"></a></p>
+
+###### [Click to watch demo](https://user-images.githubusercontent.com/43980777/108585543-92714300-737b-11eb-8296-1bf0cf79437f.mp4)
+
 ## Contents
 - [About](#about)
 - [Contents](#contents)
