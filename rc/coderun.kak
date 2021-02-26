@@ -28,8 +28,8 @@ define-command -params 0..1 -file-completion -docstring 'coderun [<filename>]: r
 	terminal sh -c %sh{
 		# Values
 		FULL=$(realpath "${1:-$kak_buffile}")
-		DIRECTORY="${FULL%/*}"
-		FILE="${FULL##*/}"
+		DIRECTORY=$(dirname "$1")
+		FILE=$(basename "$1")
 		NAME="${FILE%.*}"
 		EXTENSION=$(printf '%s' "$FILE" | sed -e "s/^$NAME\.*//" -e 's/+/p/g' -e 's/-/_/g')
 
