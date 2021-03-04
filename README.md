@@ -1,7 +1,7 @@
 <h1 align="center"><code>coderun.kak</code></h1>
 <p align="center">Kakoune code runner</p>
-<p align="center"><img src="https://img.shields.io/github/license/NNBnh/coderun.kak?labelColor=585858&color=F7CA88&style=for-the-badge" alt="License: GPL-3.0"> <img src="https://img.shields.io/github/last-commit/NNBnh/coderun.kak?labelColor=585858&color=F7CA88&style=for-the-badge"></p>
-<p align="center"><img src="https://img.shields.io/github/watchers/NNBnh/coderun.kak?labelColor=585858&color=F7CA88&style=flat-square"> <img src="https://img.shields.io/github/stars/NNBnh/coderun.kak?labelColor=585858&color=F7CA88&style=flat-square"> <img src="https://img.shields.io/github/forks/NNBnh/coderun.kak?labelColor=585858&color=F7CA88&style=flat-square"> <img src="https://img.shields.io/github/issues/NNBnh/coderun.kak?labelColor=585858&color=F7CA88&style=flat-square"></p>
+<p align="center"><a href="https://github.com/NNBnh/coderun.kak/blob/main/LICENSE"><img src="https://img.shields.io/github/license/NNBnh/coderun.kak?labelColor=585858&color=F7CA88&style=for-the-badge" alt="License: GPL-3.0"></a> <img src="https://img.shields.io/badge/development-completed-%23F7CA88.svg?labelColor=585858&style=for-the-badge&logoColor=FFFFFF" alt="Development completed"></p>
+<p align="center"><a href="https://github.com/NNBnh/coderun.kak/watchers"><img src="https://img.shields.io/github/watchers/NNBnh/coderun.kak?labelColor=585858&color=F7CA88&style=flat-square"></a> <a href="https://github.com/NNBnh/coderun.kak/stargazers"><img src="https://img.shields.io/github/stars/NNBnh/coderun.kak?labelColor=585858&color=F7CA88&style=flat-square"></a> <a href="https://github.com/NNBnh/coderun.kak/network/members"><img src="https://img.shields.io/github/forks/NNBnh/coderun.kak?labelColor=585858&color=F7CA88&style=flat-square"></a> <a href="https://github.com/NNBnh/coderun.kak/issues"><img src="https://img.shields.io/github/issues/NNBnh/coderun.kak?labelColor=585858&color=F7CA88&style=flat-square"></a></p>
 
 ## About
 `coderun.kak` is a code runner for [Kakoune](http://kakoune.org) that can run any languages.
@@ -54,6 +54,6 @@ Special thanks to:
 
 ---
 
-> <h1 align="center">Made with :heart: by <a href="https://github.com/NNBnh"><i>NNB</i></a></h1>
+> <h1 align="center">Made with ❤️ by <a href="https://github.com/NNBnh"><i>NNB</i></a></h1>
 >
 > <p align="center"><a href="https://www.buymeacoffee.com/nnbnh"><img src="https://img.shields.io/badge/buy_me_a_coffee%20-%23F7CA88.svg?logo=buy-me-a-coffee&logoColor=333333&style=for-the-badge" alt="Buy Me a Coffee"></p>
