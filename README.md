@@ -3,50 +3,38 @@
 <p align="center"><a href="https://github.com/NNBnh/coderun.kak/blob/main/LICENSE"><img src="https://img.shields.io/github/license/NNBnh/coderun.kak?labelColor=585858&color=F7CA88&style=for-the-badge" alt="License: GPL-3.0"></a> <img src="https://img.shields.io/badge/development-completed-%23F7CA88.svg?labelColor=585858&style=for-the-badge&logoColor=FFFFFF" alt="Development completed"></p>
 <p align="center"><a href="https://github.com/NNBnh/coderun.kak/watchers"><img src="https://img.shields.io/github/watchers/NNBnh/coderun.kak?labelColor=585858&color=F7CA88&style=flat-square"></a> <a href="https://github.com/NNBnh/coderun.kak/stargazers"><img src="https://img.shields.io/github/stars/NNBnh/coderun.kak?labelColor=585858&color=F7CA88&style=flat-square"></a> <a href="https://github.com/NNBnh/coderun.kak/network/members"><img src="https://img.shields.io/github/forks/NNBnh/coderun.kak?labelColor=585858&color=F7CA88&style=flat-square"></a> <a href="https://github.com/NNBnh/coderun.kak/issues"><img src="https://img.shields.io/github/issues/NNBnh/coderun.kak?labelColor=585858&color=F7CA88&style=flat-square"></a></p>
 
-## About
+## 💡 About
 `coderun.kak` is a code runner for [Kakoune](http://kakoune.org) that can run any languages.
 
-<p align="center"><a href="https://user-images.githubusercontent.com/43980777/108585543-92714300-737b-11eb-8296-1bf0cf79437f.mp4"><img src="https://user-images.githubusercontent.com/43980777/108586276-e7af5380-737f-11eb-9acd-c248b7a1c720.png"></a></p>
+https://user-images.githubusercontent.com/43980777/108585543-92714300-737b-11eb-8296-1bf0cf79437f.mp4
 
-###### [Click to watch demo](https://user-images.githubusercontent.com/43980777/108585543-92714300-737b-11eb-8296-1bf0cf79437f.mp4)
-
-## Contents
-- [About](#about)
-- [Contents](#contents)
-- [Setup](#setup)
-  - [Dependencies](#dependencies)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Configuration](#configuration)
-- [Credits](#credits)
-
-## Setup
-### Dependencies
+## 🚀 Setup
+### 🧾 Dependencies
 - The language that you want to run (obviously)
 
-### Installation
+### 📥 Installation
 With [`plug.kak`](https://github.com/robertmeta/plug.kak) just put this in your `kakrc`:
 
 ```
 plug "NNBnh/coderun.kak"
 ```
 
-## Usage
+## ⌨️ Usage
 Run `coderun` in the prompt:
 
 ```sh
 coderun [FILE]
 ```
 
-###### `coderun` will run the current file by default.
+> *`coderun` will run the current file by default.*
 
-###### NOTE: `coderun.kak` out of the box cannot run code, you need to [configure it](#configuration).
+> *NOTE: `coderun.kak` out of the box cannot run code, you need to [configure it](#%EF%B8%8F-configuration).*
 
-## Configuration
-Coderun is configured through [`CODERUN` environment variables](https://github.com/NNBnh/coderun#configuration).
+## ⚙️ Configuration
+Coderun is configured through [`CODERUN` environment variables](https://github.com/NNBnh/coderun#%EF%B8%8F-configuration).
 
 
-## Credits
+## 💌 Credits
 Special thanks to:
 - [**Code Runner**](https://github.com/formulahendry/vscode-code-runner) by [Jun Han](https://github.com/formulahendry)
 
