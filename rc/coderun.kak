@@ -27,9 +27,9 @@
 define-command -params 0..1 -file-completion -docstring 'coderun [<filename>]: run the current file or the given filename' coderun %{
 	terminal sh -c %sh{
 		# Values
-		FULL="$(dirname "${1:-$kak_buffile}")/$(basename "${1:-$kak_buffile}")"
-		DIRECTORY=$(dirname "$1")
-		FILE=$(basename "$1")
+		DIRECTORY=$(dirname "${1:-$kak_buffile}")
+		FILE=$(basename "${1:-$kak_buffile}")
+		FULL="$DIRECTORY/$FILE"
 		NAME="${FILE%.*}"
 		EXTENSION=$(printf '%s' "$FILE" | sed -e "s/^$NAME\.*//" -e 's/+/p/g' -e 's/-/_/g')
 
