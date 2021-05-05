@@ -33,7 +33,6 @@ coderun [FILE]
 ## ⚙️ Configuration
 Coderun is configured through [`CODERUN` environment variables](https://github.com/NNBnh/coderun#%EF%B8%8F-configuration).
 
-
 ## 💌 Credits
 Special thanks to:
 - [**Code Runner**](https://github.com/formulahendry/vscode-code-runner) by [Jun Han](https://github.com/formulahendry)
