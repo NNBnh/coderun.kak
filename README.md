@@ -1,6 +1,6 @@
 <h1 align="center"><code>coderun.kak</code></h1>
 <p align="center">Kakoune code runner</p>
-<p align="center"><a href="https://github.com/NNBnh/coderun.kak/blob/main/LICENSE"><img src="https://img.shields.io/github/license/NNBnh/coderun.kak?labelColor=585858&color=F7CA88&style=for-the-badge" alt="License: GPL-3.0"></a> <img src="https://img.shields.io/badge/development-completed-%23F7CA88.svg?labelColor=585858&style=for-the-badge&logoColor=FFFFFF" alt="Development completed"></p>
+<p align="center"><a href="https://github.com/NNBnh/coderun.kak/blob/main/LICENSE"><img src="https://img.shields.io/github/license/NNBnh/coderun.kak?labelColor=585858&color=F7CA88&style=for-the-badge" alt="License: GPL-3.0"></a> <a href="https://gist.github.com/NNBnh/9ef453aba3efce26046e0d3119dab5a7#development-completed"><img src="https://img.shields.io/badge/development-completed-%23F7CA88.svg?labelColor=585858&style=for-the-badge&logoColor=FFFFFF" alt="Development completed"></a></p>
 <p align="center"><a href="https://github.com/NNBnh/coderun.kak/watchers"><img src="https://img.shields.io/github/watchers/NNBnh/coderun.kak?labelColor=585858&color=F7CA88&style=flat-square"></a> <a href="https://github.com/NNBnh/coderun.kak/stargazers"><img src="https://img.shields.io/github/stars/NNBnh/coderun.kak?labelColor=585858&color=F7CA88&style=flat-square"></a> <a href="https://github.com/NNBnh/coderun.kak/network/members"><img src="https://img.shields.io/github/forks/NNBnh/coderun.kak?labelColor=585858&color=F7CA88&style=flat-square"></a> <a href="https://github.com/NNBnh/coderun.kak/issues"><img src="https://img.shields.io/github/issues/NNBnh/coderun.kak?labelColor=585858&color=F7CA88&style=flat-square"></a></p>
 
 ## 💡 About
@@ -14,14 +14,12 @@ https://user-images.githubusercontent.com/43980777/108585543-92714300-737b-11eb-
 
 ### 📥 Installation
 With [`plug.kak`](https://github.com/robertmeta/plug.kak) just put this in your `kakrc`:
-
 ```
 plug "NNBnh/coderun.kak"
 ```
 
 ## ⌨️ Usage
 Run `coderun` in the prompt:
-
 ```sh
 coderun [FILE]
 ```
