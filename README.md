@@ -1,7 +1,6 @@
 <h1 align="center"><code>coderun.kak</code></h1>
 <p align="center">Kakoune code runner</p>
 <p align="center"><a href="https://github.com/NNBnh/coderun.kak/blob/main/LICENSE"><img src="https://img.shields.io/github/license/NNBnh/coderun.kak?labelColor=2E436C&color=F9765A&style=for-the-badge" alt="License: GPL-3.0"></a> <a href="https://gist.github.com/NNBnh/9ef453aba3efce26046e0d3119dab5a7#development-completed"><img src="https://img.shields.io/badge/development-completed-%23F9765A.svg?labelColor=2E436C&style=for-the-badge&logoColor=FFFFFF" alt="Development completed"></a></p>
-<p align="center"><a href="https://github.com/NNBnh/coderun.kak/watchers"><img src="https://img.shields.io/github/watchers/NNBnh/coderun.kak?labelColor=2E436C&color=F9765A&style=flat-square"></a> <a href="https://github.com/NNBnh/coderun.kak/stargazers"><img src="https://img.shields.io/github/stars/NNBnh/coderun.kak?labelColor=2E436C&color=F9765A&style=flat-square"></a> <a href="https://github.com/NNBnh/coderun.kak/network/members"><img src="https://img.shields.io/github/forks/NNBnh/coderun.kak?labelColor=2E436C&color=F9765A&style=flat-square"></a> <a href="https://github.com/NNBnh/coderun.kak/issues"><img src="https://img.shields.io/github/issues/NNBnh/coderun.kak?labelColor=2E436C&color=F9765A&style=flat-square"></a></p>
 
 ## 💡 About
 `coderun.kak` is a code runner for [Kakoune](http://kakoune.org) that can run any languages.
