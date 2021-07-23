@@ -33,6 +33,7 @@ Coderun is configured through [`CODERUN` environment variables](https://github.c
 ## 💌 Credits
 Special thanks to:
 - [**Code Runner**](https://github.com/formulahendry/vscode-code-runner) by [Jun Han](https://github.com/formulahendry)
+- [**Case insensitive extension feature**](https://github.com/NNBnh/coderun.kak/commits?author=LogFlames) by [Elias Lundell](https://github.com/LogFlames)
 
 <br><br><br><br>
 
